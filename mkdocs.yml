@@ -1,0 +1,21 @@
+site_name: Rick and Morty App
+theme:
+  name: material
+nav:
+  - Inicio: index.md
+  - Estructura: guide/structure.md
+  - API: guide/api.md
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
