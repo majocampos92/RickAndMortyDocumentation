@@ -18,12 +18,11 @@ Obtiene uno o varios personajes.
 ```http
 GET /api/character/
 ```
-
 #### Ejemplo de llamada al Endpoint
 === "Swift"
-```swift
-let url = URL(string: "https://rickandmortyapi.com/api/character")!
-```
+    ```swift
+    let url = URL(string: "https://rickandmortyapi.com/api/character")!
+    ```
 === "JavaScript"
     ```js
     fetch("https://rickandmortyapi.com/api/character")
